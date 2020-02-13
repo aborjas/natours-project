@@ -74,6 +74,7 @@
     padding: 3px;
     font-size: $default-font-size;
     transition: all .2s;
+    z-index: 1;
   }
 
   &:hover {
