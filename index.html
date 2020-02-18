@@ -13,7 +13,26 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
-			<header class="header">
+        <div class="navigation">
+            
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            
+            <label for="navi-toggle" class="navigation__button">MENU</label>
+            
+            <div class="navigation_background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#">About Natours</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Your benefits</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Popular tours</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Stories</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Book now</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+		<header class="header">
 				<div class="header__logo-box">
 					<img src="img/logo-white.png" alt="Logo" class="header__logo">
                 </div>
@@ -24,9 +43,9 @@
                         </h1>
                         <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
                     </div>
-            </header>
-            <main>
-                <section class="section-about">
+        </header>
+        <main>
+            <section class="section-about">
                     <div class="u-center-text u-margin-bottom-big">
                         <h2 class="heading-secondary">
                             Exciting tools for adventurous people
@@ -52,8 +71,8 @@
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="section-features">
+            </section>
+            <section class="section-features">
                 
                     <div class="row">
                         <div class="col-1-of-4">
@@ -86,8 +105,8 @@
                         </div>
                     </div>
                     
-                </section>
-                <section class="section-tours">
+            </section>
+            <section class="section-tours">
                     <div class="u-center-text u-margin-bottom-big">
                         <h2 class="heading-secondary">
                             most popular tours
@@ -194,8 +213,8 @@
                         <a href="#" class="btn btn--green">Discover all tours</a>
                     </div>
 
-                </section>
-                <section class="section-stories">
+            </section>
+            <section class="section-stories">
                     <div class="bg-video">
                         <video class="bg-video__content" autoplay muted loop>
                             <source src="img/video.mp4" type="video/mp4">
@@ -240,8 +259,8 @@
                     <div class="u-center-text u-margin-top-huge">
                         <a href="#" class="btn-text">Read all stories &rarr;</a>
                     </div>
-                </section>
-                <section class="section-book">
+            </section>
+            <section class="section-book">
                     <div class="row">
                         <div class="book">
                             <div class="book__form">
@@ -280,9 +299,9 @@
                             </div>
                         </div>
                     </div>
-                </section>
-            </main>
-            <footer class="footer">
+            </section>
+        </main>
+        <footer class="footer">
                 <div class="footer__logo-box">
                     <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
                 </div>
@@ -304,8 +323,8 @@
                         </p>
                     </div>
                 </div>
-            </footer>
-            <!-- <section class="grid-test">
+        </footer>
+        <!-- <section class="grid-test">
                 <div class="row">
                     <div class="col-1-of-2">
                         Col 1 of 2
