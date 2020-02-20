@@ -16,6 +16,10 @@
     cursor: pointer;
   } 
 
+  &__container {
+    text-align: center;
+  }
+  
   &--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards ;
